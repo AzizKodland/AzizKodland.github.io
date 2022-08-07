@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chara</title>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <div class="baner" id="kek" onclick="disapear_center()">
+        <div class="text_baner">
+            <h1>Поиграем?</h1>
+        </div>
+    </div>
+    <header>
+        <div class="inner_header">
+            <img src="images/flower.png" alt="">
+            <h1>
+                Приветствую, я ЧАРА!
+            </h1>
+            <img src="images/flower.png" alt="">
+        </div>
+        
+    </header>
+
+
+    <script>
+        function disapear_center() {
+            document.getElementById('kek').style.filter = 'opacity(0)';
+            document.getElementById('kek').style.visibility = 'hidden';
+        }
+    </script>
+</body>
+</html>

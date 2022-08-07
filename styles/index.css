@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+.baner{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/bc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-timing-function: ease-in-out;
+    transition: 1.5s;
+    position: absolute;
+}
+.baner:hover {
+    background-position: center;
+}
+.text_baner {
+    color:white;
+    margin-top: 50vh;
+    text-align: center;
+}
+.text_baner>h1 {
+    border: 40px double whitesmoke;
+    display: inline-block;
+    padding: 50px 50px;
+    font-size: 64px;
+    font-family: 'Forum', cursive;
+}
+.text_baner>h1:hover {
+    background-color: #2D4059;
+    color: #EA5455 ;
+    border: 40px double #EA5455;
+}
+header {
+    padding: 20px 10px;
+}
+.inner_header {
+    background-color: #FFDE7D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transform: rotate(5deg);
+}
+.inner_header>h1 {
+    color: #F6416C;
+    font-size: 64px;
+}
+body {
+    background-color: #00B8A9;
+}
